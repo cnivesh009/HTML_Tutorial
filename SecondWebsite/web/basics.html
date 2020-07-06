@@ -1,0 +1,64 @@
+<!--
+    Document  : basics.html
+    Created on: 30-08-2019, 01:52:12 PM
+    Author    : Nivesh-GC    
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Website 2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="CSS/style.css"/> -->
+	<style media="screen">
+		body {
+			background: red;
+		}
+		
+		/* ids or identifiers*/
+		#head2, #head1 {
+			color: white;
+		}
+		/* use classes instead of ids when grouping is required*/
+		.emphasis{
+			color: white;
+		}
+		li:nth-child(3){
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<h1 id="head1">My second website</h1>
+		<div class="content">
+			<h2 id="head2">Main Content</h2>
+			<p class="emphasis"> This is my blog. </p>
+		</div>
+
+		<aside>
+			<h2> Sidebar </h2>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+
+				<li>
+					<a href="#">About</a>
+				</li>
+
+				<li>
+					<!-- <a href="#">Contact</a> -->
+					Contact
+				</li>
+			</ul>
+
+		</aside>
+	</div>
+</body>
+
+</html>
