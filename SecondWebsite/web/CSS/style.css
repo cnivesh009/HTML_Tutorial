@@ -1,33 +1,40 @@
-/*
-    Document   : style CSS
-    Created on : 30/08/2019, 2:15:53 PM
-    Author     : Nivesh-GC
-*/
+/**
+ * Document  : style.css
+ * Created on: 30-08-2019, 02:10:39 PM
+ * Author    : Nivesh-GC
+ */
 
-.wrap{
-	width: 600px;
-	margin: auto;
-	background: green;
-	overflow: hidden;
+.wrap {
+    /* width: 600px; */
+    min-width: 600px;
+    width: 80%;
+    margin: auto;
+    background: green;
+	/* remove overflow and see what happens - a vital trick */
+    overflow: hidden; 
 }
 
-aside, .content{
-	height: 600px;
-	
-}
-.content{
-	background: orange;
-	float: left;
-	width: 450px
+aside, .content {
+    height: 600px;
 }
 
-aside{
-	background: white;
-	float: left;
+.content {
+    background: orange;
+    float: left;
+    /* width: 450px; */
+    width: 80%;
 }
 
-aside ul{
-	list-style: none;
-	padding-left: 0;
+aside {
+    /* under sidebar */
+    /* min-width: 100px; */
+    background: white;
+    float: left;
+    width: 20%;
 }
 
+aside ul {
+    /*gets rid of bullets*/
+    list-style: none;
+    padding-left: 0;
+}
